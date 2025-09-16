@@ -1,8 +1,7 @@
 [build]
   command = "pnpm install && pnpm run build"
-  publish = "dist"
+  publish = "dist/spa"
 
-  # Add this rule to the BOTTOM of your netlify.toml
 [[redirects]]
   from = "/*"
   to = "/index.html"
